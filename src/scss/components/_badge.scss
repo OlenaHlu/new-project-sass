@@ -1,25 +1,19 @@
-.badge {
-  display: inline-block;
-  min-width: 96px;
-  padding: 4px 8px;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0.07px;
-  text-align: center;
-  color: #fff;
+@use "../utils" as frwd;
 
-  border-radius: 20px;
+.badge {
+  @include frwd.badge-base();
+
+  color: frwd.$badge-cl;
 }
 
 .badge-comleted {
-  background-color: #a461b8;
+  background-color: frwd.$comleted;
 }
 
 .badge-ended {
-  background-color: #fc5a5a;
+  background-color: frwd.$ended;
 }
 
 .badge-active {
-  background-color: #82c43c;
+  background-color: frwd.$active;
 }
