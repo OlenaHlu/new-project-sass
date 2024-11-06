@@ -73,7 +73,6 @@ body {
 .performer-avatar {
   display: block;
   max-width: 100%;
-  border-radius: 12px;
 }
 
 .performer-bio {
