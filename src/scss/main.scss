@@ -13,7 +13,12 @@
 
 // Examples lesson 07
 // @use "--examples--/lsn-7/math";
-@use "--examples--/lsn-7/task";
-@use "--examples--/lsn-7/badge";
-@use "base/fonts";
+// @use "--examples--/lsn-7/task";
+// @use "--examples--/lsn-7/badge";
+// @use "base/fonts";
 // @use "components/task";
+
+// Examples lesson 08
+@use "base/fonts";
+@use "components/alert";
+@use "--examples--/lsn-8/extend";
