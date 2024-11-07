@@ -19,6 +19,11 @@
 // @use "components/task";
 
 // Examples lesson 08
+// @use "base/fonts";
+// @use "components/alert";
+// @use "--examples--/lsn-8/extend";
+
+// Examples lesson 9
 @use "base/fonts";
-@use "components/alert";
-@use "--examples--/lsn-8/extend";
+// @use "components/button";
+@use "--examples--/lsn-9/mixins";
